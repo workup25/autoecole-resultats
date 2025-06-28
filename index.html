@@ -58,7 +58,7 @@
                 header: true,
                 complete: function(results) {
                     const data = results.data;
-                    const candidat = data.find(c => c.Numéro === numero);
+                    const candidat = data.find(c => c.Numero === numero);
 
                     if (candidat) {
                         resultatDiv.innerHTML = `
